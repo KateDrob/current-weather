@@ -1,0 +1,88 @@
+body {
+    background-image: url("https://cdn.glitch.global/aa9fbb55-37e3-4995-8ae4-4dd51d83bef3/background.jpg?v=1654694840499");
+    background-size: cover;
+}
+
+#container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    min-height: 100vh;
+}
+
+#header {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+#input {
+    border: none;
+    padding: 10px;
+    width: 200px;
+}
+
+#when-where {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 15px;
+}
+
+#now {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#city {
+    font-family: 'Roboto', sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    color: white;
+    text-shadow: 2px 2px black;
+}
+
+#country {
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    text-shadow: 2px 2px black;
+    margin-top: -10px;
+}
+
+#date {
+    font-family: 'Roboto', sans-serif;
+    font-size: 25px;
+    color: white;
+    margin-top: 30px;
+}
+
+#temp {
+    font-family: 'Roboto', sans-serif;
+    font-size: 65px;
+    font-weight: bold;
+    color: white;
+    text-shadow: 5px 5px black;
+}
+
+#feelsLike, #conditions, #text {
+    font-family: 'Roboto', sans-serif;
+    font-size: 25px;
+    color: white;
+    margin-top: -2px;
+}
+
+
+@media all and (max-width:500px) {
+    #city {
+        font-size: 20px;
+    }
+    #date {
+        font-size: 20px;
+    }
+    #feelsLike, #conditions, #text {
+        font-size: 20px;
+    }
+}
